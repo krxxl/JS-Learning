@@ -7,8 +7,9 @@
 }*/
 
 function checkAge(age) {
- (age >18) ? return true || return confirm('Родители разрешили?'));
+ /*(age >18) ? return true || return confirm('Родители разрешили?'));*/
+ return (age >18) || confirm('Родители разрешили?');
 }
 
-var answer = checkAge(19)
-alert('answer')
+var answer = checkAge(18)
+alert(answer)
