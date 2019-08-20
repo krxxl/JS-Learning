@@ -1,0 +1,17 @@
+let a = 1,
+    b = 'DL',
+    c = true,
+    d = null,
+    e;
+   
+alert(a);
+alert(b);
+alert(c);
+alert(d);
+alert(e);
+
+alert(typeof(a));
+alert(typeof(b));
+alert(typeof(c));
+alert(typeof(d));
+alert(typeof(e))
